@@ -28,7 +28,7 @@
                     <div class="bg-orange-500 p-1.5 rounded-lg">
                         <i data-lucide="layout" class="text-white w-6 h-6"></i>
                     </div>
-                    <span>Sistem<span class="text-orange-500">Informasi</span></span>
+                    <span>SIEGA</span>
                 </a>
             </div>
 
@@ -76,6 +76,276 @@
         <div class="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-slate-50 to-transparent z-20"></div>
     </header>
 
+    <!-- STATS SECTION -->
+    <?php include 'components/stats.php'; ?>
+
+    <!-- TIMELINE SECTION -->
+    <section id="history" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">Perjalanan Kami</h3>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Sejarah SIEGA</h2>
+                <div class="h-1 w-20 bg-orange-500 mt-4 mx-auto rounded-full"></div>
+                <p class="mt-4 text-slate-500">
+                    Transformasi dan inovasi berkelanjutan demi menjawab tantangan zaman.
+                </p>
+            </div>
+
+            <div class="relative fade-in-up delay-100">
+                <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-slate-200"></div>
+
+                <div class="relative flex items-start mb-12 group">
+                    <div class="absolute left-0 w-16 h-16 flex items-center justify-center bg-white border-4 border-orange-100 rounded-full z-10 group-hover:scale-110 group-hover:border-orange-200 transition-all duration-300">
+                        <div class="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white shadow-lg">
+                            <i data-lucide="flag" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+
+                    <div class="ml-24 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-lg transition-all duration-300 w-full relative">
+                        <div class="absolute top-6 -left-2 w-4 h-4 bg-slate-50 border-l border-b border-slate-100 transform rotate-45"></div>
+
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Awal Mula Berdiri</h3>
+                            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 text-xs font-bold rounded-full mt-2 sm:mt-0">Tahun 2013</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Unika Soegijapranata resmi mendapatkan ijin operasional program studi Sistem Informasi. Pada awal berdirinya, langsung membuka dua konsentrasi unggulan: <span class="font-bold text-slate-800">Sistem Informasi</span> dan <span class="font-bold text-slate-800">Game Technology</span>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-start mb-12 group">
+                    <div class="absolute left-0 w-16 h-16 flex items-center justify-center bg-white border-4 border-blue-100 rounded-full z-10 group-hover:scale-110 group-hover:border-blue-200 transition-all duration-300">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-lg">
+                            <i data-lucide="users" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+
+                    <div class="ml-24 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-lg transition-all duration-300 w-full relative">
+                        <div class="absolute top-6 -left-2 w-4 h-4 bg-slate-50 border-l border-b border-slate-100 transform rotate-45"></div>
+
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Inovasi Kuliah Ganda</h3>
+                            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 text-xs font-bold rounded-full mt-2 sm:mt-0">Tahun 2017</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Melakukan terobosan dengan membuka program kuliah ganda <span class="font-bold text-slate-800">Akuntansi + Sistem Informasi (AKSI)</span>. Program ini menggabungkan keahlian finansial dan teknologi untuk mencetak lulusan yang relevan dengan kebutuhan bisnis modern.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-start group">
+                    <div class="absolute left-0 w-16 h-16 flex items-center justify-center bg-white border-4 border-green-100 rounded-full z-10 group-hover:scale-110 group-hover:border-green-200 transition-all duration-300">
+                        <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg">
+                            <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+
+                    <div class="ml-24 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-lg transition-all duration-300 w-full relative">
+                        <div class="absolute top-6 -left-2 w-4 h-4 bg-slate-50 border-l border-b border-slate-100 transform rotate-45"></div>
+
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Ekspansi E-Commerce</h3>
+                            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 text-xs font-bold rounded-full mt-2 sm:mt-0">Tahun 2018</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Merespon pesatnya pertumbuhan ekonomi digital, SIEGA membuka konsentrasi <span class="font-bold text-slate-800">E-Commerce</span>. Melengkapi ekosistem pembelajaran yang komprehensif bagi mahasiswa.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VISI MISI SECTION -->
+    <section id="visi-misi" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-orange-500 font-bold uppercase tracking-wider text-sm mb-2">Landasan Kami</h3>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Visi & Misi</h2>
+                <div class="h-1 w-20 bg-blue-600 mt-4 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <div class="fade-in-up delay-100">
+                    <div class="relative bg-gradient-to-br from-slate-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl overflow-hidden">
+                        <i data-lucide="target" class="absolute -right-6 -bottom-6 w-48 h-48 text-white/5 rotate-12"></i>
+                        <i data-lucide="quote" class="w-10 h-10 text-orange-500 mb-6 opacity-80"></i>
+
+                        <h3 class="text-2xl font-bold mb-6 tracking-wide border-b border-white/20 pb-4 inline-block">VISI</h3>
+
+                        <p class="text-lg md:text-xl leading-relaxed font-light italic text-slate-100">
+                            "Menjadi komunitas akademik yang unggul dalam pendidikan, penelitian dan pengabdian dengan dilandasi nilai-nilai Kristiani: cinta kasih, keadilan dan kejujuran."
+                        </p>
+
+                        <div class="flex flex-wrap gap-3 mt-8">
+                            <span class="px-4 py-1.5 bg-white/10 rounded-full text-sm font-semibold border border-white/20">❤️ Cinta Kasih</span>
+                            <span class="px-4 py-1.5 bg-white/10 rounded-full text-sm font-semibold border border-white/20">⚖️ Keadilan</span>
+                            <span class="px-4 py-1.5 bg-white/10 rounded-full text-sm font-semibold border border-white/20">🤝 Kejujuran</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fade-in-up delay-200">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="bg-orange-100 p-2 rounded-lg">
+                            <i data-lucide="list-checks" class="w-6 h-6 text-orange-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900">Misi Program Studi</h3>
+                    </div>
+
+                    <ul class="space-y-4">
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Menyelenggarakan pendidikan yang berkualitas secara akademik dengan didukung pengembangan kepribadian yang utuh dan potensi kepemimpinan.</p>
+                        </li>
+
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Melakukan penelitian untuk pengembangan ilmu dan teknologi demi meningkatkan kesejahteraan manusia.</p>
+                        </li>
+
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Melakukan pengabdian kepada masyarakat sebagai penerapan ilmu dan teknologi yang telah dikembangkan dalam penelitian dan kesejahteraan manusia.</p>
+                        </li>
+
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Memberikan perhatian dan mencari pemecahan terhadap berbagai masalah sosial budaya masyarakat melalui komunitas akademik.</p>
+                        </li>
+
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Mengembangkan jaringan Kerjasama dengan berbagai institusi pendidikan, penelitian dan pengabdian lokal, nasional dan internasional.</p>
+                        </li>
+
+                        <li class="flex gap-4 items-start group">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed">Memperbaiki dan mengembangkan universitas secara terus menerus, sehingga dapat mendukung segala upaya untuk mencapai keunggulan.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DOSEN SECTION -->
+    <section id="lecturers" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">Tim Pengajar</h3>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Dosen Profesional</h2>
+                <div class="h-1 w-20 bg-orange-500 mt-4 mx-auto rounded-full"></div>
+                <p class="mt-4 text-slate-500 max-w-2xl mx-auto">
+                    Belajar langsung dari para ahli dan praktisi yang berpengalaman di bidang teknologi dan bisnis.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-100 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Prof_Ridwan.jpg" alt="Dosen 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Prof. Dr. Ridwan Sanjaya S.E., S.Kom., MS.IEC.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-200 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Prof_Berdi.jpg" alt="Dosen 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Dr. Bernadinus Harnadi S.T., M.T.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-300 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Pak_Yoga.jpg" alt="Dosen 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Dr. Albertus Dwiyoga Widiantoro S.Kom., M.Kom.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Pak_Andre.jpg" alt="Dosen 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Andre Kurniawan Pamudji S.Kom., M.Ling.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Bu_Stef.jpg" alt="Dosen 5" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Stephani Inggrit Swastini, S.Kom, MBA</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Pak_Cahyo.jpg" alt="Dosen 6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Agus Cahyo Nugroho S.Kom., M.T.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Pak_Erdhi.jpg" alt="Dosen 7" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Erdhi Widyarto Nugroho S.T., M.T.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Bu_Brenda.jpg" alt="Dosen 8" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Dr. T. Brenda Ch S.T., M.T.</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 fade-in-up delay-400 border border-slate-100">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="assets/Pak_Hendra.jpg" alt="Dosen 9" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">Fx. Hendra Prasetya S.T., M.T.</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
@@ -87,7 +357,7 @@
             </svg>
         </a>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
